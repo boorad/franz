@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>franz</groupId>
   <artifactId>franz</artifactId>
@@ -7,32 +8,39 @@
   <description>A Kafka-like interface for accepting high-volume traffic and writing to topic files or directories with various strategies.</description>
   <dependencies>
     <dependency>
-    	<groupId>io.netty</groupId>
-    	<artifactId>netty-buffer</artifactId>
-    	<version>4.0.0.Alpha7</version>
-    	<type>jar</type>
-    	<scope>compile</scope>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-buffer</artifactId>
+      <version>4.0.0.Alpha7</version>
+      <type>jar</type>
+      <scope>compile</scope>
     </dependency>
     <dependency>
-    	<groupId>io.netty</groupId>
-    	<artifactId>netty-common</artifactId>
-    	<version>4.0.0.Alpha7</version>
-    	<type>jar</type>
-    	<scope>compile</scope>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-common</artifactId>
+      <version>4.0.0.Alpha7</version>
+      <type>jar</type>
+      <scope>compile</scope>
     </dependency>
     <dependency>
-    	<groupId>io.netty</groupId>
-    	<artifactId>netty-transport</artifactId>
-    	<version>4.0.0.Alpha7</version>
-    	<type>jar</type>
-    	<scope>compile</scope>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-transport</artifactId>
+      <version>4.0.0.Alpha7</version>
+      <type>jar</type>
+      <scope>compile</scope>
     </dependency>
     <dependency>
-    	<groupId>io.netty</groupId>
-    	<artifactId>netty-metrics-yammer</artifactId>
-    	<version>4.0.0.Alpha7</version>
-    	<type>jar</type>
-    	<scope>compile</scope>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-metrics-yammer</artifactId>
+      <version>4.0.0.Alpha7</version>
+      <type>jar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-handler</artifactId>
+      <version>4.0.0.Alpha7</version>
+      <type>jar</type>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
 </project>
